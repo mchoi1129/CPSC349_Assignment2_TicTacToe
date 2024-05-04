@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+    background-color: #77de9b;
+  }
+  
+  ol {
+    padding-inline-start: 50px;
+  }
+
+  .move-button {
+    background-color: #f0f0f0;
+    border: 2px solid #f8f8f8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .move-button:hover {
+    background-color: #77de9b;
+  }
+  
+  .card {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    width: 600px;
+    height: 550px;
+    padding: 20px;
+    margin: 100px auto 0;
+  }
+
+  .card-player-x {
+    background-color: lightblue;
+  }
+
+  .card-player-o {
+    background-color: lightcoral;
+  }
+  
+  .square {
+    background: #fff;
+    border: 2px solid #000000;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+  }
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
